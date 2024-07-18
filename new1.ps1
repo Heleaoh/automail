@@ -83,7 +83,7 @@ $Mail = $Outlook.CreateItem(0)  # 0 steht für olMailItem
 $Mail.Subject = "Adobe Lizenz"
 $Mail.Body = "Hallo Herr Mustermann,
 
-ich benötige eine Lizenz für folgenden User:
+ich benoetige eine Lizenz fuer folgenden User:
 
 User: $($userInfo.Name)
 E-Mail: $($userInfo.Email)"
